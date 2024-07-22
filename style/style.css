@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+/* Generics */
 body {
     font-family: Montserrat;
     font-weight: 700;
@@ -54,6 +55,10 @@ aside {
     padding: 15px;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.dp-none {
+    display: none;
 }
 
 #logo-big {
@@ -138,7 +143,6 @@ h3 {
 .download-app {
     color: var(--font-color);
     padding-bottom: 3px;
-
 }
 
 .sidebar-bottom .user-name>img {
@@ -151,9 +155,11 @@ h3 {
 
 .media-player {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 #song-canvas {
     height: 40px;
+    padding: 0 10px;
 }
