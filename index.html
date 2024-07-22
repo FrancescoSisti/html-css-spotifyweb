@@ -17,6 +17,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css'
         integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw=='
         crossorigin='anonymous' />
+    <!-- Files link -->
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/desktop-responsive.css">
     <link rel="stylesheet" href="style/tablet-responsive.css">
@@ -26,6 +27,8 @@
 <body>
     <div class="upper-content">
         <aside class="brd-shw">
+
+            <!-- Sidebar with logo and nav menu -->
             <div class="sidebar-top brd-shw">
                 <div class="logos">
                     <img id="logo-big" src="img/logo.svg" alt="logo-big">
@@ -40,6 +43,8 @@
                         <li class="nav-item"><img src="img/libreria.svg" alt="library-ico" class="nav-icons">La tua
                             libreria</li>
                     </ul>
+
+                    <!-- Playlist section -->
                     <div class="playlists">
                         <h3 id="playlist-title">Playlist</h3>
                         <span class="add-playlist"><i class="fa-solid fa-plus"></i>Crea Playlist</span>
@@ -55,20 +60,34 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Sidebar bottom with username and download app -->
             <div class="sidebar-bottom">
-                <span class="download-app"><img src="img/download.svg" alt="download-ico"> Installa app</span>
+                <div class="download-app"><img src="img/download.svg" alt="download-ico"> Installa app</div>
                 <hr>
                 <h3 class="user-name"><img src="img/profile.svg" alt="user-ico"> John Doe</h3>
             </div>
         </aside>
         <main>
+
+            <!-- Header with upgrade button -->
             <header class="brd-shw"><button>
                     <h4>Effettua l'upgrade</h4>
-                </button></header>
+                </button>
+            </header>
+
+            <!-- Main content, with songs and albums -->
+
         </main>
     </div>
     <footer class="media-player brd-shw">
-        <span></span>
+        <div class="song-info">
+            <span>
+                <img id="song-canvas" src="img/sinister.jpeg" alt="sinister-canvas">
+            </span>
+        </div>
+        <div class="song-controls"></div>
+        <div class="other-controls"></div>
     </footer>
 </body>
 
